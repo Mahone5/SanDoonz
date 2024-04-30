@@ -41,7 +41,9 @@ body {
   margin: 4rem 5rem 0 5rem;
   height: 100%;
   width: 80%;
-  border-radius: 5px;
+  border-radius: 3px;
+  border: 2px solid navajowhite;
+  box-shadow: 0 1px 1px navajowhite;
 }
 
 .header-container h1 {
@@ -74,10 +76,12 @@ h1 > sup {
 .about-container h2 {
   font-size: 5rem;
   margin-bottom: 4rem;
+  font-weight: 400;
 }
 
 .about-container h4 {
   font-size: 2rem;
+  font-weight: 400;
   color: #271400;
   margin-bottom: 3rem;
 }
@@ -108,6 +112,7 @@ h1 > sup {
   border: none;
   outline: none;
   border-radius: 3px;
+  box-shadow: 0 1px 0 #333;
 }
 
 .about-btn {
@@ -124,8 +129,10 @@ h1 > sup {
   transition: 0.3s ease-out;
   cursor: pointer;
   display: inline-block;
+  box-shadow: 0 1px 0 #333;
 }
 
 .about-btn:hover {
   background-color: #4c6b8c;
+  box-shadow: 0 2px 0 #333;
 }
