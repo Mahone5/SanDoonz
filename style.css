@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgb(31, 27, 112) 0%,
+    rgb(32, 32, 117) 35%,
+    rgb(1, 54, 64) 100%
+  );
+  font-family: Inter;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: vh90;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5rem;
+  margin-bottom: 3rem;
+}
+
+.header-wrapper {
+  width: 50%;
+  display: inline-block;
+  padding-top: 5rem;
+}
+
+.header-img-wrapper {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+}
+
+.header-img-wrapper > img {
+  margin: 4rem 5rem 0 5rem;
+  height: 100%;
+  width: 80%;
+  border-radius: 5px;
+}
+
+.header-container h1 {
+  color: #f7f7f7;
+  text-align: center;
+  font-size: 8rem;
+  margin-bottom: 3rem;
+  letter-spacing: 1.5px;
+  font-weight: 200;
+}
+
+.header-container h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  color: navajowhite;
+  text-align: center;
+}
+
+h1 > sup {
+  font-size: 2rem;
+}
+
+.about-container {
+  background-color: navajowhite;
+  height: 100vh;
+  padding: 5rem 10rem;
+  color: #271400;
+}
+
+.about-container h2 {
+  font-size: 5rem;
+  margin-bottom: 4rem;
+}
+
+.about-container h4 {
+  font-size: 2rem;
+  color: #271400;
+  margin-bottom: 3rem;
+}
+
+.about-container p {
+  font-size: 1.7rem;
+  color: #4f2900;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+}
+
+.about-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-container h5 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.about-form input {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.about-btn {
+  margin-left: 2rem;
+  font-family: Inter;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: #271400;
+  color: navajowhite;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  transition: 0.3s ease-in;
+}
+
+.about-btn:hover {
+  background-color: #4f2900;
+}
