@@ -9,13 +9,8 @@ html {
 }
 
 body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    270deg,
-    rgb(31, 27, 112) 0%,
-    rgb(32, 32, 117) 35%,
-    rgb(1, 54, 64) 100%
-  );
+  background: #2c4d70;
+  background: linear-gradient(90deg, #345475 0%, #2c4d70 35%, #051e39 100%);
   font-family: Inter;
 }
 
@@ -109,7 +104,7 @@ h1 > sup {
 }
 
 .about-form input {
-  padding: 10px 20px;
+  padding: 12px 20px;
   border: none;
   outline: none;
   border-radius: 3px;
@@ -119,15 +114,18 @@ h1 > sup {
   margin-left: 2rem;
   font-family: Inter;
   font-size: 2rem;
-  padding: 1rem 2rem;
-  background-color: #271400;
+  padding: 5px 10px;
+  padding-bottom: 10px;
+  background-color: #2c4d70;
   color: navajowhite;
   border-radius: 3px;
   border: none;
   outline: none;
-  transition: 0.3s ease-in;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .about-btn:hover {
-  background-color: #4f2900;
+  background-color: #4c6b8c;
 }
